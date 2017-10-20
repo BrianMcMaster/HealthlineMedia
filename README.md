@@ -1,13 +1,13 @@
 # HealthlineMedia
 
-Requirements
+#Requirements
 pip install boto3
 pip install awscli
  
-Then configure your creds
-aws configure
+#Then configure your creds
+#aws configure
 
-Examples
+#Examples
 python logparser.py getcodes --from 2017/08/01 --to 2017/08/07 --max 100
 python logparser.py getcodes --from 2017/08/01 --to 2017/08/01
 python logparser.py getcodes --for 2 months --max 100
